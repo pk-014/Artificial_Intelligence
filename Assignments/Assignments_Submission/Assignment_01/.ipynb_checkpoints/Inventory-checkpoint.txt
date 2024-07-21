@@ -1,0 +1,1 @@
+{'chair': 15, 'table': 22, 'sofa-set': 2, 'tv-unit': 0, 'fan': 10, 'table-lamp': 0, 'iron-box': 0, 'bed': 30}

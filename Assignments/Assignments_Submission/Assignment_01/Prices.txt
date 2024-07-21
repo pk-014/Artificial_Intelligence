@@ -1,0 +1,10 @@
+{
+'chair': 2365, 
+'table': 37752, 
+'sofa-set': 23299, 
+'tv-unit': 120344, 
+'bed': 40226, 
+'fan':1560,
+'table-lamp': 3400,
+'iron-box': 1200 
+}

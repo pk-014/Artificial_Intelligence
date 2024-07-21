@@ -1,0 +1,54 @@
+------------------------------------------------------------------------------------------
+-			Object Oriented Programming					 -
+------------------------------------------------------------------------------------------
+
+Activity 1:
+***********
+
+Make 5 classes of your choice. Each class must contain 4 to 5 methods and some data-members.
+Get this checked and duly marked.
+
+
+
+Activity 2:
+***********
+
+Multi-level Inheritence
+-----------------------
+Q1
+
+Make a chain of classes, each one inheriting from the previous one as shown below.
+Cake -> CreamCake -> CherryCreamCake -> ChocolateCherryCreamCake
+Attributes of Cake: floor, egg, sugar, milk, sugar, baking soda, temperature, is_baked,
+Methods of Cake: beat_eggs_whites, mix, bake,
+
+Attributes of CreanmCake: cream,
+Methods of CreanmCake: add_cream, refrigerate, 
+
+Attributes of CherryCreamCake: cherry
+Methods of CherryCreanmCake: add_cherry,
+
+Attributes of ChocolateCherryCreamCake: chocolate,
+Methods of Cake: add_chocolate
+
+--------------------------
+Hierarchical Inheritence
+--------------------------
+Q2
+
+Make two chains of classes following the hierarchy mentioned below and make atleast 2 methods and some data-members of your choice for each class. Also, first make the UML diagram on the page before coding the scenario.
+Animal - > Herbivorous -> Cow -> SahiwalCow (Hint: sahiwal cow has hump on its back)
+Animal -> Carnivorous -> Shark -> BlueShark
+
+--------------------------
+Multiple Inheritence
+--------------------------
+Q3
+
+Make three classes as mentioned below and make atleast 2 methods and few data-members of your choice for each class. Also, first make the UML diagram on the page before coding the scenario. Understand the concepts of multiple inheritence and Method-Resolution-Order and how Super() keyword acts to resolve the issue.
+Animal -> Herbivorous -> Omnivorous
+Animal -> Carnivorous -> Omnivorous
+(Hint: Omnivorous is inheriting from both Herbi & Carnivorous)
+
+
+

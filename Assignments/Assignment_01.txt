@@ -1,0 +1,151 @@
+Sources: Python 4 Everybody, and Learning Python
+
+Variables, expressions, and statements
+
+Q1: Write a program that uses input to prompt a user for their name and then welcomes them.
+Enter your name: Chuck
+Hello Chuck
+
+Q2: Write a program to prompt the user for hours and rate per
+hour to compute gross pay.
+Enter Hours: 35
+Enter Rate: 2.75
+Pay: 96.25
+We won’t worry about making sure our pay has exactly two digits after the decimal
+place for now. If you want, you can play with the built-in Python round function
+to properly round the resulting pay to two decimal places.
+
+Q3: Assume that we execute the following assignment statements:
+width = 17
+height = 12.0
+For each of the following expressions, write the value of the expression and the
+type (of the value of the expression).
+1. width//2
+2. width/2.0
+3. height/3
+4. 1 + 2 * 5
+Use the Python interpreter to check your answers.
+
+Q4: Write a program which prompts the user for a Celsius temperature, convert the temperature to Fahrenheit, and print out the converted temperature.
+
+Q5: Write a program to find if a given number is a perfect square or not.
+
+Q6: Write Python statements to calculate and print the simple profit using 
+variables c, r and t for capital, rate of profit and time duration respectively.
+
+Q7: Write Python statements to create 2 complex objects and print their sum, difference and product.
+
+Q8: Write Python statements to accept a string from the user and print it in title case.
+
+
+Strings
+
+Q1: Take the following Python code that stores a string:
+str = 'X-DSPAM-Confidence:0.8475'
+Use find and string slicing to extract the portion of the string after the colon character and then use the float function to convert the extracted string into a floating point number.
+
+Q2: Here is a string in python:
+my_str = “Welcome to the Course on Data Science.”
+Do the following:
+- Split the string’
+- Print only first 10 letters
+- Make a new string from this, such that it has only these Words: “Welcome Science”
+
+Q3: Write a Python script to calculate the number of occurrences of a given character in an any given string.
+
+Q4: Write a Python script to count the number of occurrences of each word in a given string.
+
+Q5: Write a Python script to form a string out of the first 2 and last 2 characters from the given string. For example, given the string “I am a student”, the output expected is “I nt”.
+
+
+Lists
+
+Q 1: Make a list modify it by removing the first and last elements. Then make a list called middle that contains all except the first and last elements.
+
+Q2: Create a list of some text and find the unique words in it.
+
+Q3: Write a program to add all the items in a list.
+
+Q4. Write a program to get the largest and smallest number in a list.
+
+Q5: Write a program to remove duplicates from a list.
+
+Q6: Write a program that prints whether at least one member of the given two lists are same.
+
+Q7: Write a program to convert a list of characters into a string.
+
+Q8: Write a program to check whether two lists are identical.
+
+Q9: Write a program to print unique values from a list.
+
+Q10: Write a program to print the number of occurrences of each element in a list.
+
+Q11: Write a program to find the sub-list in a list of lists whose sum of elements is the highest.
+
+Q12: Write a program to insert a given string at the beginning of all the strings in a list.
+
+Q13: Write a program to convert a string to a list of characters.
+
+Q14: Write a program to concatenate elements of a list with corresponding
+elements of another given list.
+
+Q15: Write a program to split a list every n-th element to obtain a list of lists.
+
+Q16: Write a program to convert a list of multiple integers into one single integer.
+Thus, the list [25,12,2] should get converted to the number 25122.
+
+
+Tuples
+
+Q1: Write a program to convert a tuple of values into a tuple of singleton tuples of values. Thus, (1,2,3) should get converted to ((1,)(2,),(3,)).
+
+Q2: Write a program to count the number of elements in a list until it finds a tuple in the list.
+
+Q3: Write a program to add corresponding elements of two given tuples, giving rise to a new tuple.
+
+Q4: Write a program to multiply each element of a given tuple with a given integer, giving rise to a new tuple.
+
+
+Sets
+
+Q1: Add few unique numbers in a set and use the 'in' operator to search for an element.
+
+Q2: Write a program to convert a list of integers into a list of unique integers using sets.
+
+Q3: Assume that we have 2 lists, each having only IP addresses as its contents.
+Write a program to determine if the 2 lists have the same IP addresses (albeit in different positions) in the most optimal manner.
+
+
+Dictionaries
+
+Q1: Prepare a dictionary that has roll numbers as keys and marks as values. Print all the keys. Print all the values. Get 2 different values using their keys.
+
+
+Q2: A shop has following commodities with its inventory maintained in a dictionary:
+comm = {
+'chair' : 10,
+'table' : 22,
+'sofa-set': 2,
+'tv-unit': 0,
+'fan': 10,
+'table-lamp': 0,
+'iron-box': 0,
+'bed': 30
+}
+
+and its price in another dictionary
+
+price = {
+'chair': 2365,
+'table': 37752,
+'sofa-set': 23299,
+'tv-unit': 120344
+'bed': 40226
+}
+
+Accept the number of items for each commodity sold from standard input and at the end do the following:
+
+1. Evaluate the income made by the shop owner.
+2. If user enters a commodity that is not available in the shop, display appropriate message.
+3. If user enters a quantity that is beyond the available limit, display the size of the inventory.
+4. Display the inventory available.

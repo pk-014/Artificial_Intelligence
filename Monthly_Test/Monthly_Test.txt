@@ -1,0 +1,20 @@
+### Q#1 (5) 
+Write a program that takes input from user in kilograms and convert it into pounds. The formula for conversion is 
+pound = kg * 2.2046
+
+
+### Q#2 (5) 
+Write a program that takes marks as input from the user. If the entered marks are greater than 50, a message saying "Passed" is shown to the user otherwise, a message saying "Failed" is shown. This programs never terminates unless user enters "done".
+
+
+### Q#3 (5) 
+Here is a list of names: ['Abdullah', 'Tayyaba', 'Waheed', 'Fatima', 'Basim', 'Hira']
+Write a program that goes over this list and separates the names of males and females in two different lists and after getting done with them, shows the lists on screen.
+Hint: There is a pattern to these names. Find the pattern and use % operator
+
+
+### Q#4 (15) 
+Make a program that takes roll-numbers of students alongwith their marks in 3 subjects: Urdu, English, and Python and saves their details in a file. Then it reads the files and let the user know about the marks of the student in a particular subject against the provided roll-number. Hint: Use eval to convert the string back to dictionary object.
+
+
+

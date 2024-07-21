@@ -1,0 +1,41 @@
+Control Structures
+
+Q1: Write a program to tell if a given number is negative, zero or positive.
+
+Q2. Write a program to print whether a given number is even or odd.
+
+Q3. Write a program to print all the even and odd numbers (two separate sequences) up to a given number.
+
+Q4. Write a program to check if the given character is an alphabet, digit or a punctuation character.
+
+Q5: Write a program to check if the given alphabet is a consonant or a vowel.
+
+Q6: Write a program to count the number vowels and consonants in the given
+input string.
+
+Q7: Write a program to check if the given number is prime or not.
+
+Q8: Write a program to print all the prime numbers up to a given number.
+
+Q9: Write a program to check if the given year is a leap year or not.
+
+Q10: Write a program to check if the given string is a palindrome.
+
+Q11: Write a program to print factorial of a given number.
+
+Q12: Write a program to generate the first n terms of the Fibonacci series.
+
+
+Q13: Write a program to print the grade for a given percentage of marks. The grade should be 
+A for marks>=80, 
+B for marks>=60, 
+C for marks>=40 and 
+D otherwise.
+
+Q14: Write a program to find if the given point lies on the x-axis, y-axis or on the z-axis, given it’s coordinates. e.g: A point is shown like:(x-value, y-value, z-value) for example (12,56,78)
+
+Q15: Write a program to find the distance between the two points. User should enter the coordinates of the two points.
+
+Q16: Write a program to print if the given triangle is an equilateral triangle, isosceles triangle or scalene triangle. User should enter the values for the sides of the triangle.
+
+Q17: Write a program which repeatedly reads numbers until the user enters “done”. Once “done” is entered, print out the total, count, and average of the numbers. If the user enters anything other than a number, detect their mistake.

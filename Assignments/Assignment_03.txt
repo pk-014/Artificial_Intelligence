@@ -1,0 +1,32 @@
+Functions
+
+Q1: Write a function in Python to calculate and return the average of a given list of
+integers.
+
+Q2: Write a function in Python called isIn() to check for the existence of a substring within a string returning a Boolean value.
+
+Q3: Write a function in Python to demonstrate keyword arguments.
+
+Q4: Write a script in Python to demonstrate nested functions.
+
+
+File Handling
+
+Q1: Accept details of all your friends from standard input (e.g. Name, Date of
+birth, Hobbies, occupation, residence address) and store it in a binary file
+as individual records. Allow the user to list out all details of a friend, given
+his/her name.
+
+Q2: Create a text file with content as a short summary highlighting your profile
+and the interesting events that took place in your lifetime. Write a Python
+program that lists out all repetitive words (e.g 'I' in the sentence “I think
+I will go”).
+
+Q3: Write a Python script that lists out each line of a file prefixed with it’s line number.
+
+
+Exception Handling
+
+Q1: Write a Python script to demonstrate ValueError, IndexError, NameError exceptions.
+
+

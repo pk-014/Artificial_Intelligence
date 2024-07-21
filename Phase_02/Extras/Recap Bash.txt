@@ -1,0 +1,121 @@
+Launch terminal: 
+	ctrl+alt+ T
+print working directory: 
+	pwd [-L: logical path] [P: phyical path]
+change directory:
+	cd [.. : one above] [~ [user]: takes to other user's login directory] [- : go back]
+list:
+	ls[--all / -a: show all including hidden] [-l : shows long list] [-al/-la : combines the two functionalities] [-F : shows a forward slash for directories to stand out] [-r : reverses the alphabetic order] [ : lists all things recursively from lower directories as well]
+catenate: for opening file / joining text
+	cat
+redirection: sending I/O or O/P to somewhere else
+	input > output
+	cat > filename then add the data
+	>> : for append
+	cat file1 file2 > file3 cobines two files into a third one
+	cat file1 >> file2 append the contents of file1 to file2
+make directory:
+	mkdir directory_name/sub_directory/sub_dir
+	[--parents / -p : creates even when parent directory doesn't exist]
+	[{sibling_dir1,sibling_dir2} : creats multiple folders at one level]
+remove directory:
+	rmdir directory_name
+	rmdir -p directory_name : removes directories except those which contain files
+	rm -R directory_name : removes all sub files and folders recursively
+copy:
+	cp file1 file2
+	cp file1 directory
+	[-i / --interactive : consults before taking action]: cp -i file1 file2 directory
+	cp ../file1 ../file2 . : copies 2 files from higher directory into the current one '.'
+	cp -R directory1 directory2 : copies directory1 into the second including the contents
+
+move:
+	used for rename: mv filename newname
+	caution: if there is an existing file with the same name then it gets deleted and its name is given to the first file. To avoid this to happen use:  -i / --interactive 	
+	used for moving files: mv file1 file2 file3 directory_name
+
+read a file:
+	cat -- not good for large files like books
+	more -- loads one page at a time
+	less ---more functionality like: / forward search, ? backward search, q quit
+file:
+	allows to determine the file type by examining its contents
+spaces in name:
+	use \ as escape character
+	or write the name in double quotes
+wild cards for pattern searching:
+	? : used to point out unknown info in a pattern like: w??d for wild , ls ?? 
+	* : like ? but takes multiple character positions like: *.txt anything which ends with .txt
+	p*??.txt : starting wth p then anything can come but before .txt there are two things (digits)
+	cp *.txt directory_name	: copies all .txt files into that directory
+wild cards character classes
+	alpha: alphabet character
+		ls [[:alpha:]]* : files starting with aphabet and whatever coming after it
+		ls [![:alpha:]]* : files which DONOT start with alphabet
+	alnum: alpha-numeric character
+		ls [[::]]
+	digit: any digit character
+		ls [[:digit:]]pic.jpeg : files starting with a digit and ends with pic.jpeg
+		ls pic[[:digit:]][[:digit:]] : files starting with pic then two digits
+	lower: any lowercase character
+		ls [[:lower:]]* : any file starting from lower case and whatever coming afterwards
+	upper: any uppercase character
+		ls [[:upper:]]*
+	See this also:
+		ls[1f]* : files starting with 1 or f
+		ls [wp][io][r123]* : files starting with w/p then coming i/o then r/1/2/3
+Head:
+	To print first 10 lines of the file passed to it.
+	head filename
+	head -n 3 filename : n for number of lines
+	head -n -15 filename : everything upto last 15 lines
+	head -c filename : instead printing out lines, it prints out bytes
+	head -q filename : print without header of the file
+Pipes |:
+	| takes the output of one command and uses it as input to next command
+	ls | head -n 11 : lists only 11 direcotries
+find:
+	find . -type f -print
+	finds in current directory what type? f i.e file and print the result	
+sort:
+	sorts a file/list alphabetically
+	sort filename
+	sort -r filename : sorts in reverse order
+	sort -R filename : randomizes
+unique:
+	shows only unique lines in a file
+	uniq filename
+	uniq -c filename : also gives the number of repetiotions
+	uniq -d filename : only gives the lines which were repeated
+	uniq -c filename : only gives the lines which were not repeated
+
+command substitution:
+	` : it allows to use the o/p of one command as argument of second command
+	gedit `grep -l "demoText" *.txt` : find demoText in all files ending with .txt and then give only its name (-l) then open this file using gedit. Actually the command in backticks is run first then its output is given to gedit as an argument.
+
+grep:
+	grep is used to search for text from a file or another command's output. It can return the lines where it finds a match or the lines where it doesn't.
+
+redirect o/p of terminal to another terminal:
+	tty : gives the location of file associated with a terminal
+	echo hello > /dev/pts/9 : prints hello to the specified terminal
+
+	
+	
+
+	
+alias:
+	changes the behaviour of the command
+	alis ping='ls' : now ping will do what ls was doing
+	unalias ping : removes the alias
+shutdown:
+	sudo poweroff
+
+restart:
+	sudo reboot
+cron:
+	allows to run scripts periodically on times specified by us in our cron-tab file
+	each user has a cron-tab file which should not be edited directly instead us its utility
+	
+	
+
